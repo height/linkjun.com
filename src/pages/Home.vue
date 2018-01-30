@@ -1,6 +1,10 @@
 <template>
   <div class="home">
-    首页
+    <h1>Link Jun</h1>
+    
+    <h2>
+      linkjun.com
+    </h2>
   </div>
 </template>
 
@@ -19,3 +23,13 @@ export default Vue.extend({
   }
 })
 </script>
+<style lang="stylus" scoped>
+  h1{
+    font-size 30px
+  }
+  h1,h2 {
+    text-align center 
+    margin 30px auto
+  }
+  
+</style>
